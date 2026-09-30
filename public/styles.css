@@ -595,12 +595,24 @@ footer.appfoot .footer-link:hover { text-decoration: underline; }
    cover+position doing the crop safely within that fixed box. */
 .category-tile.cat-drums-photo,
 .category-tile.cat-keys-photo,
-.category-tile.cat-mixing-photo {
+.category-tile.cat-mixing-photo,
+.category-tile.cat-guitar-photo,
+.category-tile.cat-vocals-photo,
+.category-tile.cat-bass-photo,
+.category-tile.cat-dj-photo,
+.category-tile.cat-mc-photo,
+.category-tile.cat-horns-photo {
   background-image: none;
 }
 .cat-drums-photo::before,
 .cat-keys-photo::before,
-.cat-mixing-photo::before {
+.cat-mixing-photo::before,
+.cat-guitar-photo::before,
+.cat-vocals-photo::before,
+.cat-bass-photo::before,
+.cat-dj-photo::before,
+.cat-mc-photo::before,
+.cat-horns-photo::before {
   content: '';
   position: absolute;
   top: 0; left: 0; right: 0;
@@ -611,3 +623,9 @@ footer.appfoot .footer-link:hover { text-decoration: underline; }
 .cat-drums-photo::before { background-image: url('/images/categories/session-drummers.jpg'); background-position: center 55%; }
 .cat-keys-photo::before { background-image: url('/images/categories/session-keys.jpg'); background-position: center 40%; }
 .cat-mixing-photo::before { background-image: url('/images/categories/sound-engineers.jpg'); background-position: center 35%; }
+.cat-guitar-photo::before { background-image: url('/images/categories/session-guitarists.jpg'); background-position: center 40%; }
+.cat-vocals-photo::before { background-image: url('/images/categories/lead-vocalists.jpg'); background-position: center 30%; }
+.cat-bass-photo::before { background-image: url('/images/categories/session-bassists.jpg'); background-position: center 45%; }
+.cat-dj-photo::before { background-image: url('/images/categories/djs.jpg'); background-position: center 35%; }
+.cat-mc-photo::before { background-image: url('/images/categories/mcs-hosts.jpg'); background-position: center 30%; }
+.cat-horns-photo::before { background-image: url('/images/categories/horns-woodwinds.jpg'); background-position: center 25%; }

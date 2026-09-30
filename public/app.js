@@ -687,17 +687,17 @@ const FEATURED_CATEGORIES = [
 // drum kit for drummers, a mic for vocalists, a turntable for DJs — the way
 // AirGigs leads each category with a picture. Each class is a background
 // image defined in styles.css; the tile's scrim keeps the label legible.
-// The "-photo" variants use real gear photos in place of the illustration,
-// for the categories that have one.
+// Every tile now uses a real photo — drums/keys/mixing are the user's own
+// gear, the rest are free-license stock photos picked to match each role.
 const CATEGORY_TILE_ART = [
   'cat-drums-photo',
-  'cat-guitar',
-  'cat-vocals',
-  'cat-guitar',
-  'cat-dj',
+  'cat-guitar-photo',
+  'cat-vocals-photo',
+  'cat-bass-photo',
+  'cat-dj-photo',
   'cat-keys-photo',
-  'cat-vocals',
-  'cat-horns',
+  'cat-mc-photo',
+  'cat-horns-photo',
   'cat-mixing-photo',
 ];
 
